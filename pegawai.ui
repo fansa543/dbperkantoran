@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>371</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>301</width>
+     <height>102</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="iDPegawaiLabel">
+      <property name="text">
+       <string>ID Pegawai</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="editIDPegawai"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="namaLabel">
+      <property name="text">
+       <string>Nama Pegawai</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="editNama"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="statusLabel">
+      <property name="text">
+       <string>Status Pegawai</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="comboStatus">
+      <item>
+       <property name="text">
+        <string>Tetap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Kontrak</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Magang</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Outsourcing</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="noTeleponLabel">
+      <property name="text">
+       <string>No Telepon</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="editTelpon"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>101</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SIMPAN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHapus">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>120</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HAPUS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUbah">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>120</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>UBAH</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBersih">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>56</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BERSIH</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tabelPegawai">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>301</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>IDPegawai</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nama</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>No Telpon</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="editCari">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>291</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
