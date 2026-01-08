@@ -28,7 +28,7 @@
      <string>Halaman Aplikasi</string>
     </property>
     <addaction name="actionForm_Pegawai"/>
-    <addaction name="actionForm_DVD"/>
+    <addaction name="actionForm_Absen"/>
     <addaction name="actionForm_Admin"/>
    </widget>
    <addaction name="menuHalaman_Aplikasi"/>
@@ -39,9 +39,9 @@
     <string>Form Pegawai</string>
    </property>
   </action>
-  <action name="actionForm_DVD">
+  <action name="actionForm_Absen">
    <property name="text">
-    <string>Form Departemen</string>
+    <string>Form Absen</string>
    </property>
   </action>
   <action name="actionForm_Admin">

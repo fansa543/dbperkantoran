@@ -91,7 +91,7 @@
     <rect>
      <x>10</x>
      <y>120</y>
-     <width>101</width>
+     <width>141</width>
      <height>18</height>
     </rect>
    </property>
@@ -102,9 +102,9 @@
   <widget class="QPushButton" name="btnHapus">
    <property name="geometry">
     <rect>
-     <x>115</x>
-     <y>120</y>
-     <width>101</width>
+     <x>10</x>
+     <y>140</y>
+     <width>141</width>
      <height>20</height>
     </rect>
    </property>
@@ -115,9 +115,9 @@
   <widget class="QPushButton" name="btnUbah">
    <property name="geometry">
     <rect>
-     <x>225</x>
+     <x>170</x>
      <y>120</y>
-     <width>81</width>
+     <width>141</width>
      <height>20</height>
     </rect>
    </property>
@@ -128,10 +128,10 @@
   <widget class="QPushButton" name="btnBersih">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>170</x>
      <y>140</y>
-     <width>56</width>
-     <height>18</height>
+     <width>141</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
@@ -139,10 +139,13 @@
    </property>
   </widget>
   <widget class="QTableWidget" name="tabelPegawai">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>190</y>
+     <y>200</y>
      <width>301</width>
      <height>192</height>
     </rect>
@@ -172,8 +175,8 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>160</y>
-     <width>291</width>
+     <y>170</y>
+     <width>301</width>
      <height>20</height>
     </rect>
    </property>

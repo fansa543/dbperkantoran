@@ -21,11 +21,12 @@ class my_cruddb:
         cursor.close()
 
     # ===== UPDATE =====
-    def ubahPegawai(self, id, nama, status, noTelp):
+    # Sekarang menerima original_id (WHERE) dan new_id (SET) agar ID bisa diubah juga
+    def ubahPegawai(self, original_id, new_id, nama, status, noTelp):
         cursor = self.conn.cursor()
         cursor.execute(
-            "UPDATE pegawai SET Nama=%s, Status=%s, Telp=%s WHERE IDPegawai=%s",
-            (nama, status, noTelp, id)
+            "UPDATE pegawai SET IDPegawai=%s, Nama=%s, Status=%s, Telp=%s WHERE IDPegawai=%s",
+            (new_id, nama, status, noTelp, original_id)
         )
         self.conn.commit()
         cursor.close()

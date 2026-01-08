@@ -26,8 +26,8 @@ class Ui_main(object):
         main.resize(800, 600)
         self.actionForm_Pegawai = QAction(main)
         self.actionForm_Pegawai.setObjectName(u"actionForm_Pegawai")
-        self.actionForm_DVD = QAction(main)
-        self.actionForm_DVD.setObjectName(u"actionForm_DVD")
+        self.actionForm_Peralatan = QAction(main)
+        self.actionForm_Peralatan.setObjectName(u"actionForm_Absen")
         self.actionForm_Admin = QAction(main)
         self.actionForm_Admin.setObjectName(u"actionForm_Admin")
         self.centralwidget = QWidget(main)
@@ -45,7 +45,7 @@ class Ui_main(object):
 
         self.menubar.addAction(self.menuHalaman_Aplikasi.menuAction())
         self.menuHalaman_Aplikasi.addAction(self.actionForm_Pegawai)
-        self.menuHalaman_Aplikasi.addAction(self.actionForm_DVD)
+        self.menuHalaman_Aplikasi.addAction(self.actionForm_Peralatan)
         self.menuHalaman_Aplikasi.addAction(self.actionForm_Admin)
 
         self.retranslateUi(main)
@@ -56,7 +56,7 @@ class Ui_main(object):
     def retranslateUi(self, main):
         main.setWindowTitle(QCoreApplication.translate("main", u"main", None))
         self.actionForm_Pegawai.setText(QCoreApplication.translate("main", u"Form Pegawai", None))
-        self.actionForm_DVD.setText(QCoreApplication.translate("main", u"Form Departemen", None))
+        self.actionForm_Peralatan.setText(QCoreApplication.translate("main", u"Form Absen", None))
         self.actionForm_Admin.setText(QCoreApplication.translate("main", u"Form Admin", None))
         self.menuHalaman_Aplikasi.setTitle(QCoreApplication.translate("main", u"Halaman Aplikasi", None))
     # retranslateUi
